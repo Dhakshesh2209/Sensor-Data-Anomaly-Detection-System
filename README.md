@@ -58,3 +58,21 @@ Focused on smart monitoring, predictive control, and software-only instrumentati
 ```bash
 pip install -r requirements.txt
 streamlit run dashboard/dashboard_fd001.py
+
+## 📊 Dashboards
+
+### `streamlit_dashboard.py`
+Explore internal CMAPSS sequences:
+- Sample selector
+- RUL prediction
+- Anomaly detection
+- SHAP sensor importance
+- Sensor time-series plots
+
+### `streamlit_csv_dashboard.py`
+Upload your own 30×21 `.csv` sensor sequence:
+- Predict RUL
+- Detect anomalies
+- Visualize SHAP impact
+- Plot sensor trends
+
